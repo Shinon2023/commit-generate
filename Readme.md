@@ -37,9 +37,9 @@ npm install -g commit-generate-ollama
 
 ### Step 2: Install Ollama
 
-#### Recommend
-
 Follow the instructions on the [Ollama website](https://ollama.com/) to install the Ollama CLI and set up the required models.
+
+#### Recommend
 
 if you install ollama I recommend that if you want to use any ai for the first time, run (optional if you want to use default model) :
 
