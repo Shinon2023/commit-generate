@@ -26,10 +26,7 @@ Before using the script, make sure you have the following installed:
 You can download Ollama from [here](https://ollama.com/).
 
 ## Preview
-
-[![Preview Video](https://img.youtube.com/vi/5ooaMqUqM74/maxresdefault.jpg)](https://www.youtube.com/watch?v=5ooaMqUqM74)
-
-
+![My GIF](preview.gif)
 
 ## Installation
 
