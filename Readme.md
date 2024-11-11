@@ -33,12 +33,12 @@ commit-generate-ollama [--model_name]
 
 ## Examples
 
-### 1. Using the Default Model
+### 1. Using the Default Model ( llama3.1:8b )
 ```bash
 commit-generate-ollama
 ```
 
-### 2. Using a Specific Model
+### 2. Using a Specific Model ( You can find more model in this https://ollama.com/library?sort=popular)
 ```bash
 commit-generate-ollama --llama3.2-vision:90b
 ```
