@@ -1,0 +1,24 @@
+{
+  "name": "commit-generate-ollama",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "ai commit generate toolkit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "commit-generate-ollama": "./bin/index.js"
+  },
+  "keywords": [
+    "ai",
+    "commit-toolkit"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^12.0.1",
+    "ollama": "^0.5.9",
+    "simple-git": "^3.27.0"
+  }
+}
