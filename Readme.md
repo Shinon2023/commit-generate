@@ -130,10 +130,13 @@ You can update the default model name or customize the prompt according to your 
 
 ## How to delete ollama ai-model
 
-You can go to ```
-C:\Users\siwat\.ollama\models\blobs
+You can go to
 
-```you can delete the model as you wish.
+```
+C:\Users\siwat\.ollama\models\blobs
+```
+
+you can delete the model as you wish.
 
 ## Contributing
 
