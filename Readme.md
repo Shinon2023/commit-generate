@@ -25,6 +25,9 @@ Before using the script, make sure you have the following installed:
 
 You can download Ollama from [here](https://ollama.com/).
 
+## Preview
+![My GIF](preview.gif)
+
 ## Installation
 
 ### Step 1: Install Dependencies
