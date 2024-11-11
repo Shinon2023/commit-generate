@@ -123,7 +123,7 @@ If you encounter issues while running the script, try the following steps:
 If you'd like to modify the default AI model or change the prompt used to generate commit messages, you can do so by editing the script file located at:
 
 ```
-C:\Users\<Your username>\AppData\Roaming\npm\node_modules\commit-generate-ollama\index.js
+C:\Users\<Your Username>\AppData\Roaming\npm\node_modules\commit-generate-ollama\index.js
 ```
 
 You can update the default model name or customize the prompt according to your preferences.
@@ -133,7 +133,7 @@ You can update the default model name or customize the prompt according to your 
 You can go to
 
 ```
-C:\Users\siwat\.ollama\models\blobs
+C:\Users\<Your Username>\.ollama\models\blobs
 ```
 
 you can delete the model as you wish.
