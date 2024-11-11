@@ -37,7 +37,23 @@ npm install -g commit-generate-ollama
 
 ### Step 2: Install Ollama
 
+#### Recommend
+
 Follow the instructions on the [Ollama website](https://ollama.com/) to install the Ollama CLI and set up the required models.
+
+if you install ollama I recommend that if you want to use any ai for the first time, run (optional if you want to use default model) :
+
+```bash
+ollama run llama3.1:8b
+```
+
+first so that you don't have to wait long while commit-generate-ollama is running and you can track the download status.
+
+You can find more available models on the [Ollama Library](https://ollama.com/library?sort=popular).
+
+```bash
+ollama run <Your ai model you want to use>
+```
 
 ### Step 3: Ensure Git is Initialized
 
