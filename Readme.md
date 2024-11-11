@@ -27,7 +27,9 @@ You can download Ollama from [here](https://ollama.com/).
 
 ## Preview
 
-<iframe width="560" height="315" src="https://youtu.be/5ooaMqUqM74" frameborder="0" allowfullscreen></iframe>
+[![Preview Video](https://img.youtube.com/vi/5ooaMqUqM74/maxresdefault.jpg)](https://www.youtube.com/watch?v=5ooaMqUqM74)
+
+
 
 ## Installation
 
