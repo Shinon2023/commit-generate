@@ -26,7 +26,8 @@ Before using the script, make sure you have the following installed:
 You can download Ollama from [here](https://ollama.com/).
 
 ## Preview
-![My GIF](preview.gif)
+
+<iframe width="560" height="315" src="https://youtu.be/5ooaMqUqM74" frameborder="0" allowfullscreen></iframe>
 
 ## Installation
 
