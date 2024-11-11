@@ -18,7 +18,6 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "^12.0.1",
-    "ollama": "^0.5.9",
     "simple-git": "^3.27.0"
   }
 }

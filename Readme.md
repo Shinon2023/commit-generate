@@ -115,6 +115,16 @@ If you encounter issues while running the script, try the following steps:
 3. **Ensure Changes Exist**: The script requires there to be changes to commit. If no changes are present in the repository, it will not be able to generate a commit message.
 4. **Model Issues**: If you experience issues with the Ollama model, check for any model-specific limitations or errors in the Ollama documentation.
 
+## Modifying the Script
+
+If you'd like to modify the default AI model or change the prompt used to generate commit messages, you can do so by editing the script file located at:
+
+```
+C:\Users\<Your username>\AppData\Roaming\npm\node_modules\commit-generate-ollama\index.js
+```
+
+You can update the default model name or customize the prompt according to your preferences.
+
 ## Contributing
 
 Feel free to fork the repository, submit issues, and create pull requests. Contributions are welcome!
