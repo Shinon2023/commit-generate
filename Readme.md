@@ -1,7 +1,7 @@
-
 # Git Commit Message Generator with Ollama
 
 ## Github
+
 [commit-generate-ollama](https://github.com/Shinon2023/commit-generate-ollama/tree/main?tab=readme-ov-file)
 
 ## Overview
@@ -10,18 +10,18 @@ This Node.js script automatically generates concise and meaningful Git commit me
 
 ## Features
 
-* **Automatic Git Staging**: Automatically stages files in the working directory before generating the Git diff, ensuring that the commit message reflects all changes.
-* **AI-Powered Commit Message Generation**: Uses Ollama's AI models to generate concise commit messages based on the detected changes in your repository.
-* **Customizable Model Selection**: Supports specifying different AI models via a command-line argument, allowing you to choose the model that best suits your needs.
+- **Automatic Git Staging**: Automatically stages files in the working directory before generating the Git diff, ensuring that the commit message reflects all changes.
+- **AI-Powered Commit Message Generation**: Uses Ollama's AI models to generate concise commit messages based on the detected changes in your repository.
+- **Customizable Model Selection**: Supports specifying different AI models via a command-line argument, allowing you to choose the model that best suits your needs.
 
 ## Prerequisites
 
 Before using the script, make sure you have the following installed:
 
-* **Node.js** (v16 or above)
-* **npm** (Node Package Manager)
-* **Git** (Git version control system) installed and initialized in your project
-* **Ollama CLI** with access to the required AI models (e.g., `llama3.1:8b`, `llama3.2-vision:90b`)
+- **Node.js** (v16 or above)
+- **npm** (Node Package Manager)
+- **Git** (Git version control system) installed and initialized in your project
+- **Ollama CLI** with access to the required AI models (e.g., `llama3.1:8b`, `llama3.2-vision:90b`)
 
 You can download Ollama from [here](https://ollama.com/).
 
@@ -63,7 +63,7 @@ commit-generate-ollama [--model_name]
 
 ### Command Options:
 
-* `--model_name`: **Optional**. This argument specifies the AI model from Ollama that will be used for generating the commit message. You can use models like `llama3.1:8b` or `llama3.2-vision:90b`. If this argument is not provided, the default model `llama3.1:8b` will be used.
+- `--model_name`: **Optional**. This argument specifies the AI model from Ollama that will be used for generating the commit message. You can use models like `llama3.1:8b` or `llama3.2-vision:90b`. If this argument is not provided, the default model `llama3.1:8b` will be used.
 
 ## Examples
 
@@ -128,6 +128,13 @@ C:\Users\<Your username>\AppData\Roaming\npm\node_modules\commit-generate-ollama
 
 You can update the default model name or customize the prompt according to your preferences.
 
+## How to delete ollama ai-model
+
+You can go to ```
+C:\Users\siwat\.ollama\models\blobs
+
+```you can delete the model as you wish.
+
 ## Contributing
 
 Feel free to fork the repository, submit issues, and create pull requests. Contributions are welcome!
@@ -136,3 +143,4 @@ Feel free to fork the repository, submit issues, and create pull requests. Contr
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+```
