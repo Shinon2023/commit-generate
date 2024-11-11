@@ -1,6 +1,9 @@
 
 # Git Commit Message Generator with Ollama
 
+## Github
+[commit-generate-ollama](https://github.com/Shinon2023/commit-generate-ollama/tree/main?tab=readme-ov-file)
+
 ## Overview
 
 This Node.js script automatically generates concise and meaningful Git commit messages using AI models from Ollama. It fetches changes in your Git repository, creates a summary of the changes, and generates an appropriate commit message based on those changes. The script also supports model customization, allowing you to choose which Ollama model to use for generating the commit messages.
@@ -132,3 +135,4 @@ Feel free to fork the repository, submit issues, and create pull requests. Contr
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
