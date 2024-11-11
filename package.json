@@ -1,6 +1,6 @@
 {
   "name": "commit-generate-ollama",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "type": "module",
   "description": "ai commit generate toolkit",
   "main": "index.js",
