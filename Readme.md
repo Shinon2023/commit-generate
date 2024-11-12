@@ -87,7 +87,7 @@ Go to Environment variables...
 
 In User variables for <Your Usename> press New and type this in variables name :
 
-[ENV](./ENV.png)
+![IMG](./ENV.png)
 
 ### Recommend to restart your pc.
 
