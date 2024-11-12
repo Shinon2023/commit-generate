@@ -126,7 +126,7 @@ commit-generate
 To use a different Provider Ai, such as `openai`, run:
 
 ```bash
-commit-generate -p openai -m gpt-40-mini
+commit-generate -p openai -m gpt-4o-mini
 ```
 
 gpt-40-mini this default models then you use ```-p openai``` can you find more openai models [here](https://platform.openai.com/docs/models)
