@@ -85,7 +85,7 @@ Edit the system environment variables
 
 Go to Environment variables...
 
-In User variables for <Your Usename> press New and type this in variables name :
+In User variables for `<Your Usename>` Press new and type this in variables name :
 
 ![IMG](./ENV.png)
 
@@ -93,6 +93,7 @@ In User variables for <Your Usename> press New and type this in variables name :
 
 ## Usage
 
+```bash
 Usage: commit-generator [options]
 
 Generate commit messages using AI models
@@ -102,6 +103,8 @@ Options:
   -p, --provider <provider>  set AI provider (ollama or openai) (default: "ollama")
   -m, --model <model>        set model name
   -h, --help                 display help for command
+```
+
 
 ```bash
 commit-generate -p [Provider] -m [modelName]
