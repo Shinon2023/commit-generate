@@ -21,7 +21,7 @@ Before using the script, make sure you have the following installed:
 - **Node.js** (v16 or above)
 - **npm** (Node Package Manager)
 - **Git** (Git version control system) installed and initialized in your project
-- **Ollama CLI** with access to the required AI models (e.g., `llama3.1:8b`, `llama3.2-vision:90b`)
+- **Ollama CLI** with access to the required AI models (e.g., `llama3.2`, `llama3.2-vision:90b`)
 - **Openai Api Key** (Optional) if you want to use gpt to generate git commit.
 
 You can download Ollama from [here](https://ollama.com/).
@@ -37,7 +37,7 @@ You can get Openai Api Key from [here](https://platform.openai.com/api-keys)
 Make sure you have Node.js and npm installed. Then, install the necessary dependencies by running the following command:
 
 ```bash
-npm install -g commit-generate-ollama
+npm install -g commit-generate
 ```
 
 ### Step 2: Install Ollama
