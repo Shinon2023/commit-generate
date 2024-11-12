@@ -2,7 +2,7 @@
 
 ## Github
 
-[commit-generate-ollama](https://github.com/Shinon2023/commit-generate-ollama)
+[commit-generate](https://github.com/Shinon2023/commit-generate)
 
 ## Overview
 
@@ -49,10 +49,10 @@ Follow the instructions on the [Ollama website](https://ollama.com/) to install 
 if you install ollama I recommend that if you want to use any ai for the first time, run (optional if you want to use default model) :
 
 ```bash
-ollama run llama3.1:8b
+ollama run llama3.2
 ```
 
-first so that you don't have to wait long while commit-generate-ollama is running and you can track the download status.
+first so that you don't have to wait long while commit-generate is running and you can track the download status.
 
 You can find more available models on the [Ollama Library](https://ollama.com/library?sort=popular).
 
@@ -176,7 +176,7 @@ If you encounter issues while running the script, try the following steps:
 If you'd like to modify the default AI model or change the prompt used to generate commit messages, you can do so by editing the script file located at:
 
 ```
-C:\Users\<Your Username>\AppData\Roaming\npm\node_modules\commit-generate-ollama\index.js
+C:\Users\<Your Username>\AppData\Roaming\npm\node_modules\commit-generate\index.js
 ```
 
 You can update the default model name or customize the prompt according to your preferences.
