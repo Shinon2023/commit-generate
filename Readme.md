@@ -2,11 +2,11 @@
 
 ## Github
 
-[commit-generate-ollama](https://github.com/Shinon2023/commit-generate-ollama/tree/main?tab=readme-ov-file)
+[commit-generate-ollama](https://github.com/Shinon2023/commit-generate-ollama)
 
 ## Overview
 
-This Node.js script automatically generates concise and meaningful Git commit messages using AI models from Ollama. It fetches changes in your Git repository, creates a summary of the changes, and generates an appropriate commit message based on those changes. The script also supports model customization, allowing you to choose which Ollama model to use for generating the commit messages.
+This Node.js script automatically generates concise and meaningful Git commit messages using AI models from Ollama. It fetches changes in your Git repository, creates a summary of the changes, and generates an appropriate commit message based on those changes. The script also supports model customization, allowing you to choose which Ollama models or Openai models to use for generating the commit messages.
 
 ## Features
 
@@ -22,13 +22,15 @@ Before using the script, make sure you have the following installed:
 - **npm** (Node Package Manager)
 - **Git** (Git version control system) installed and initialized in your project
 - **Ollama CLI** with access to the required AI models (e.g., `llama3.1:8b`, `llama3.2-vision:90b`)
+- **Openai Api Key** (Optional) if you want to use gpt to generate git commit.
 
 You can download Ollama from [here](https://ollama.com/).
+You can get Openai Api Key from [here](https://platform.openai.com/api-keys)
 
 ## Preview
 ![My GIF](preview.gif)
 
-## Installation
+## Installation Ollama
 
 ### Step 1: Install Dependencies
 
@@ -71,35 +73,64 @@ If your project isn't initialized with Git, you can do so by running:
 ```bash
 git init
 ```
+## Installation Openai Api Key
+
+### Set your api key in your system ENV
+
+Press Windows + s type 
+
+```bash
+Edit the system environment variables
+```
+
+Go to Environment variables...
+
+In User variables for <Your Usename> press New and type this in variables name :
+
+[ENV](./ENV.png)
+
+### Recommend to restart your pc.
 
 ## Usage
 
-To run the script, use the following command:
+Usage: commit-generator [options]
+
+Generate commit messages using AI models
+
+Options:
+  -d, --debug                output extra debugging
+  -p, --provider <provider>  set AI provider (ollama or openai) (default: "ollama")
+  -m, --model <model>        set model name
+  -h, --help                 display help for command
 
 ```bash
-commit-generate-ollama [--model_name]
+commit-generate -p [Provider] -m [modelName]
 ```
-
-### Command Options:
-
-- `--model_name`: **Optional**. This argument specifies the AI model from Ollama that will be used for generating the commit message. You can use models like `llama3.1:8b` or `llama3.2-vision:90b`. If this argument is not provided, the default model `llama3.1:8b` will be used.
 
 ## Examples
 
-### 1. Using the Default Model (`llama3.1:8b`)
+### 1. Using the Default Model (`llama3.2`)
 
-To generate a commit message using the default model (`llama3.1:8b`), simply run:
+To generate a commit message using the default provider (`ollama`) and model (`llama3.2`), simply run:
 
 ```bash
-commit-generate-ollama
+commit-generate
 ```
 
-### 2. Using a Specific Model
+### 2 Using other Ai provider
+
+To use a different Provider Ai, such as `openai`, run:
+
+```bash
+commit-generate -p openai -m gpt-40-mini
+```
+
+### 3. Using a Specific Model
 
 To use a different Ollama model, such as `llama3.2-vision:90b`, run:
 
 ```bash
-commit-generate-ollama --llama3.2-vision:90b
+commit-generate -m llama3.2-vision:90b
 ```
 
 You can find more available models on the [Ollama Library](https://ollama.com/library?sort=popular).

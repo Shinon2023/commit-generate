@@ -23,3 +23,5 @@ Thumbs.db
 
 # Temporary files
 *.tmp
+
+/testing.js
