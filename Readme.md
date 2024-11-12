@@ -1,4 +1,4 @@
-# Git Commit Message Generator with Ollama
+# Git Commit Message Generator with Ollama Or OpenAi
 
 ## Github
 
@@ -6,12 +6,12 @@
 
 ## Overview
 
-This Node.js script automatically generates concise and meaningful Git commit messages using AI models from Ollama. It fetches changes in your Git repository, creates a summary of the changes, and generates an appropriate commit message based on those changes. The script also supports model customization, allowing you to choose which Ollama models or Openai models to use for generating the commit messages.
+This Node.js script automatically generates concise and meaningful Git commit messages using AI models from Ollama or OpenAi. It fetches changes in your Git repository, creates a summary of the changes, and generates an appropriate commit message based on those changes. The script also supports model customization, allowing you to choose which Ollama models or Openai models to use for generating the commit messages.
 
 ## Features
 
 - **Automatic Git Staging**: Automatically stages files in the working directory before generating the Git diff, ensuring that the commit message reflects all changes.
-- **AI-Powered Commit Message Generation**: Uses Ollama's AI models to generate concise commit messages based on the detected changes in your repository.
+- **AI-Powered Commit Message Generation**: Uses Ollama's or OpenAi AI models to generate concise commit messages based on the detected changes in your repository.
 - **Customizable Model Selection**: Supports specifying different AI models via a command-line argument, allowing you to choose the model that best suits your needs.
 
 ## Prerequisites
@@ -25,6 +25,7 @@ Before using the script, make sure you have the following installed:
 - **Openai Api Key** (Optional) if you want to use gpt to generate git commit.
 
 You can download Ollama from [here](https://ollama.com/).
+
 You can get Openai Api Key from [here](https://platform.openai.com/api-keys)
 
 ## Preview
@@ -127,6 +128,8 @@ To use a different Provider Ai, such as `openai`, run:
 ```bash
 commit-generate -p openai -m gpt-40-mini
 ```
+
+gpt-40-mini this default models then you use ```-p openai``` can you find more openai models [here](https://platform.openai.com/docs/models)
 
 ### 3. Using a Specific Model
 
