@@ -1,6 +1,6 @@
 {
   "name": "commit-generate",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "type": "module",
   "description": "ai commit generate toolkit",
   "main": "index.js",
